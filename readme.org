@@ -1,0 +1,29 @@
+#+TITLE: Readme
+* Stack
+Node, Mongo, React, Express
+* List of Features
+- Register using mobile number.
+- Geolocate nearby people on basis of desired radius (input) and list them.
+- Request a connection with someone from the list for a video chat (and text?).
+- User may accept or reject the request.
+* Components
+** Backend
+- Authentication system
+- Model for geolocation matching.
+- Model for socket/WebRTC connection
+- Database
+  - User Table:  Name Pictur Password Number Location Co. Enable Video call feature
+  - Chat : Message Content Sent by(user details Sent to(receiver details) Timestamp
+** FrontEnd
+- page login (number password)
+- Page signup (number, password, name,picture)
+- Page for existing chats
+- Page for people nearby
+- chat ui
+* Plan of Action
+- [ ] Choose an architecture.
+- [ ] Implement Models.
+- [ ] Implement Schemas.
+- [ ] Implement Front end.
+- [ ] ....
+- [ ] ....
