@@ -4,7 +4,7 @@ import './index.css';
 const Header = () => {
   return (
     <div className={`header`}>
-      <span>H</span>IV
+      <span>HIVE</span>
     </div>
   );
 };

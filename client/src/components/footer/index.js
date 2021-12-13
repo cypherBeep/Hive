@@ -5,7 +5,7 @@ const Footer = ({ text }) => {
   return (
     <div className={`footer`}>
       {
-        text ? <span className={`footer__text footer__text--small`}>{text}</span> : <span className={`footer__text footer__text--big`}>N</span>
+        text ? <span className={`footer__text footer__text--small`}>{text}</span> : <span className={`footer__text footer__text--big`}>H</span>
       }
     </div>
   );
