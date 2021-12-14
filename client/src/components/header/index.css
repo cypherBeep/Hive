@@ -3,7 +3,7 @@
     padding-bottom: 20px;
     font-size: 30pt;
     text-align: center;
-    background-image: url(./bg.jpg);
+    background-image: url(./background.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,9 +11,12 @@
     margin-bottom: 10px;
 }
 
+.header{
+  color: #FFF;
+}
 .header span {
   color: #FFF;
-  background: #000;
+  /* background: #000; */
   padding: 4px;
   text-align: center;
   font-weight: bold;
